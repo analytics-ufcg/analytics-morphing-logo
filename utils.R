@@ -16,7 +16,7 @@ getCommitsMonth <- function(){
   return(0)
 }
 
-getRandomPI <- function(){
+getNextPI <- function(){
   pos <<- 1
   pi_digits = "141592653589793238462643383279502884197169399375105820974944592307816406286"
   pi_vector <<- as.numeric(strsplit(as.character(pi_digits),"")[[1]])
