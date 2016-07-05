@@ -32,9 +32,7 @@ getNextPI <- function(){
   return_digit(pos)
 }
 
+
 getProjectViews <- function(){
   return(0)
 }
-
-
-?

@@ -4,7 +4,7 @@ source('utils.R')
 getValues <- function(){
   commits <- getCommitsMonth()
   weekday <- getWeekDay()
-  random.pi <- getRandomPI()
+  random.pi <- getNextPI()
   views <- getProjectViews()
   seconds <- getSecondsOfDay()
   return(c(commits,weekday,random.pi,views,seconds))
